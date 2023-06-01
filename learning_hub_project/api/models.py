@@ -10,3 +10,4 @@ class LearningHub(models.Model):
 class Course(models.Model):
     name = models.CharField(max_length=200)
     learning_hub = models.ForeignKey(LearningHub, related_name='courses', on_delete=models.CASCADE)
+
