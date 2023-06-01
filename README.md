@@ -1,6 +1,14 @@
 # Django REST API Projects
 This repository contains two Django REST API projects. One is for managing companies, learning hubs and courses, and the other for managing an e-commerce cart with users, merchants, and products.
 
+###Prerequisites
+You need to have the following installed on your machine:
+
+i. Python 3.6 or newer
+ii. Django
+iii. Django REST Framework
+Please consult the official Django and Django REST Framework documentation for installation instructions.
+
 ## Project 1: Companies, Learning Hubs and Courses API
 This API allows you to manage Companies, their associated Learning Hubs, and the courses offered at these hubs.
 
