@@ -1,4 +1,4 @@
-#Django REST API Projects#
+# Django REST API Projects
 This repository contains two Django REST API projects. One is for managing companies, learning hubs and courses, and the other for managing an e-commerce cart with users, merchants, and products.
 
 Project 1: Companies, Learning Hubs and Courses API
