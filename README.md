@@ -7,7 +7,7 @@ This API allows you to manage Companies, their associated Learning Hubs, and the
 ### Installation and Setup
 1. Clone the repository.
 2. Navigate to the root directory of this project.
-3. Run pip install -r requirements.txt to install the required dependencies.
+3. Run `pip install -r requirements.txt` to install the required dependencies.
 4. Run python manage.py makemigrations and python manage.py migrate to create the database schema.
 5. Run python manage.py runserver to start the server. The API will be available at http://localhost:8000/.
 ### Endpoints
