@@ -1,12 +1,12 @@
 # Django REST API Projects
 This repository contains two Django REST API projects. One is for managing companies, learning hubs and courses, and the other for managing an e-commerce cart with users, merchants, and products.
 
-###Prerequisites
+### Prerequisites
 You need to have the following installed on your machine:
 
-i. Python 3.6 or newer
-ii. Django
-iii. Django REST Framework
+* Python 3.6 or newer
+* Django
+* Django REST Framework
 Please consult the official Django and Django REST Framework documentation for installation instructions.
 
 ## Project 1: Companies, Learning Hubs and Courses API
@@ -18,11 +18,12 @@ This API allows you to manage Companies, their associated Learning Hubs, and the
 3. Run `pip install -r requirements.txt` to install the required dependencies.
 4. Run `python manage.py makemigrations` and `python manage.py migrate` to create the database schema.
 5. Run `python manage.py runserver` to start the server. The API will be available at http://localhost:8000/.
+
 ### Endpoints
 The API has the following endpoints:
 
-`/api/companies/`: Get a list of all companies, their associated learning hubs and courses.
-`/api/companies/<int:id>/`: Get a specific company by its ID along with its associated learning hubs and courses.
+* `/api/companies/`: Get a list of all companies, their associated learning hubs and courses.
+
 ### Testing
 Run `python manage.py test api`to execute the test cases.
 
@@ -36,6 +37,6 @@ Follow the same installation and setup steps as for Project 1.
 The API has the following endpoints:
 
 `/api/cart/`: Get a list of all carts with associated user, items, and total cost.
-`/api/cart/<int:id>/`: Get a specific cart by its ID along with associated user, items, and total cost.
+
 ### Testing
 Run `python manage.py test shopping_cart` to execute the test cases.
