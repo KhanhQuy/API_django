@@ -1,12 +1,12 @@
 from django.db import models
 
 class Company(models.Model):
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=200)
 
 class LearningHub(models.Model):
-    name = models.CharField(max_length=255)
-    company = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='learning_hubs')
+    name = models.CharField(max_length=200)
+    company = models.ForeignKey(Company, related_name='learning_hubs', on_delete=models.CASCADE)
 
 class Course(models.Model):
-    name = models.CharField(max_length=255)
-    learning_hub = models.ForeignKey(LearningHub, on_delete=models.CASCADE, related_name='courses')
+    name = models.CharField(max_length=200)
+    learning_hub = models.ForeignKey(LearningHub, related_name='courses', on_delete=models.CASCADE)
