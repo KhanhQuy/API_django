@@ -40,3 +40,6 @@ The API has the following endpoints:
 
 ### Testing
 Run `python manage.py test shopping_cart` to execute the test cases.
+
+### Admin
+* `/admin/`: Go to admin page to add and edit data.
